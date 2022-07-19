@@ -1,0 +1,64 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 87px 120px 0px 120px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin: 0px;
+}
+
+nav a,
+i {
+    text-decoration: none;
+    padding-right: 34px;
+    color: black;
+}
+
+/* preorder section */
+
+.pre-order {
+    display: flex;
+    align-items: center;
+    margin: 80px 0px 100px 0px;
+}
+
+.pre-order-details {
+    width: 68%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+
+.pre-order-details h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.pre-product{
+    width: 582px;
+    height: 270px;
+    margin: 285 0 0 0;
+}
+
+.pre-order img {
+    width: 440px;
+    height: 414px;
+}
+.preebook{
+    width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: 1px solid #E02C6D;
+    border-radius: 41px;
+}
